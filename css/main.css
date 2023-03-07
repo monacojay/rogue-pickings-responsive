@@ -9,10 +9,6 @@ body {
 	color: #000000;
 }
 
-span {
-
-}
-
 /* The width property has been changed to max-width */
 .content-wrapper {
 	max-width: 1200px;
@@ -34,7 +30,7 @@ h4 {
 
 h1 {
 	font-size: 1.875em;
-	justify-content: center;
+	/* justify-content: center; */
 }
 
 h2 {
@@ -66,9 +62,10 @@ header {
 
 header h1 {
 	/* float: left; */
-	/* margin: 0; */
-	padding: 38px 0;
+	margin: 0;
+	padding: 38px 0 20px 0;
 	width: 100%;
+	border-bottom: 3px solid #77a466;
 }
 
 header h1 span {
@@ -77,13 +74,14 @@ header h1 span {
 
 header nav {
 	/* float: right; */
-	padding: 46px 0;
-	justify-content: center;
+	padding: 20px 0;
+	/* justify-content: center; */
 }
 
 header nav ul {
-	/* margin: 0; */
+	margin: 0;
 	padding: 0;
+	list-style: none;
 }
 
 header nav ul li {
@@ -91,7 +89,7 @@ header nav ul li {
 	font-size: .875rem;
 	font-weight: 700;
 	text-transform: uppercase;
-	padding: 0 10px;
+	padding: 10px 0;
 	width: 100%;
 }
 
@@ -132,8 +130,8 @@ header nav ul li a {
 .section-three {
 	box-sizing: border-box;
 	/* float: left; */
-	padding: 0 40px;
-	justify-content: center;
+	/* padding: 0 40px;
+	justify-content: center; */
 	width: 100%;
 }
 
@@ -143,8 +141,8 @@ header nav ul li a {
 
 .section-two {
 	/* width: 42%; */
-	border-left: 5px solid #EEE;
-	border-right: 5px solid #EEE;
+	border-top: 5px solid #EEE;
+	border-bottom: 5px solid #EEE;
 }
 
 .section-three {
@@ -152,7 +150,7 @@ header nav ul li a {
 }
 
 .bottom-section h3 {
-	/* margin: 30px 0; */
+	margin: 30px 0;
 }
 
 .menu-list {
@@ -170,7 +168,7 @@ header nav ul li a {
 /* The widths are in a percentage! */
 footer {
 	text-align: center;
-	/* margin-top: 8px; */
+	margin-top: 8px;
 	display: flex;
 	justify-content: center;
 }
@@ -179,5 +177,5 @@ footer span {
 	font-family: 'Galada', cursive;
 	text-transform: lowercase;
 	color: #45610E;
-	font-size: 14px;
+	font-size: .875rem;
 }
